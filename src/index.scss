@@ -1,0 +1,26 @@
+:root {
+  --in-primary: #4bb4f8;
+  --in-secondery-color: #838383;
+  --in-primary-border: 1px solid #dbdbdb;
+  --in-link: #00376b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  margin: auto;
+}
+img {
+  max-width: 100%;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: var(--in-link);
+}
+input:focus {
+  outline: hidden;
+}

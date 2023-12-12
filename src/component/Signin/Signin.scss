@@ -1,0 +1,138 @@
+.SignIn-area {
+  background: var(--in-primary-bg);
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+
+  .SignIn-container {
+    margin-top: 20px;
+    .SignIn-right {
+      width: 290px;
+      border: var(--in-primary-border);
+      padding: 30px 30px;
+      .header-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .logo {
+          img {
+            width: 170px;
+            height: 70px;
+          }
+        }
+      }
+      p {
+        text-align: center;
+        line-height: 20px;
+        color: var(--in-secondery-color);
+        font-weight: 600;
+        font-size: 16px;
+      }
+
+      .create-account {
+        background: #0095f6;
+        padding: 10px 16px 7px 19px;
+        border-radius: 8px;
+        width: 237px;
+        color: white;
+        font-size: 14px;
+        text-align: center;
+        position: relative;
+        margin-top: 15px;
+        cursor: pointer;
+        span {
+          font-size: 22px;
+          position: absolute;
+          margin-top: -5px;
+          margin-left: -25px;
+        }
+        &:hover {
+          background: #2d88ff;
+        }
+      }
+    }
+  }
+  .divider {
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+    margin: 20px 0;
+    color: var(--in-secondery-color);
+    .left-divider {
+      height: 1px;
+      width: 140px;
+      background: #dbdbdb;
+    }
+    .right-divider {
+      height: 1px;
+      width: 140px;
+      background: #dbdbdb;
+    }
+  }
+  .SignIn-form {
+    display: flex;
+    justify-content: center;
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      width: 100%;
+      padding-right: 22px;
+      input {
+        border: var(--in-primary-border);
+        width: 100%;
+        padding: 10px;
+        background: #f9f9f9;
+      }
+    }
+  }
+  .trams-policy {
+    .p1 {
+      margin: 20px 0;
+      p {
+        text-align: center;
+        font-size: 12px;
+        line-height: 16px;
+        color: var(--in-secondery-color);
+        a {
+          color: var(--in-link);
+        }
+      }
+    }
+  }
+  .signUp {
+    .create-account {
+      background: var(--in-primary) !important;
+    }
+  }
+}
+.box2 {
+  border: var(--in-primary-border);
+  padding: 30px;
+  margin-top: 10px;
+  p {
+    text-align: center;
+    font-size: 14px;
+    a {
+      font-weight: 600;
+      color: var(--in-primary);
+    }
+  }
+}
+.box3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  p {
+    margin: 20px 0;
+    text-align: center;
+  }
+  .app {
+    display: flex;
+    gap: 10px;
+    img {
+      width: 140px;
+      height: 40px;
+    }
+  }
+}
